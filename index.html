@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="authForm">
+                <div class="field">
+                    <span>Task: </span>
+                    <input type="text" class="taskInput" />
+                </div>
+
+                <div class="field">
+                    <button class="btn">Add task</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul class="taskList"></ul>
+        </div>
+    </div>
+
+    <div class="mainModal">
+      <div class="innerModal">
+        <div class="close">
+          <button class="btnCloser">X</button>
+        </div>
+
+        <input type="text" class="inpEdit">
+        
+        <button class="btnSave">Save</button>
+      </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
